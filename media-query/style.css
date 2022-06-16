@@ -1,0 +1,28 @@
+.container {
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 50px;
+  color: maroon;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    background-color: whitesmoke;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
